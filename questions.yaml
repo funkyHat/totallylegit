@@ -1,0 +1,81 @@
+-
+  question: The queen is known to have corgettes. True or false?
+  answers:
+    - False, she has corgis.
+    - True, she loves gardening.
+-
+  question: Who is Big Ben?
+  answers:
+    - It's the name the bell and the tower.
+    - A cabbie from East London.
+    - The step father of Boris Johnson.
+-
+  question: A beefeater is someone...
+  answers:
+    - Guards of the palace.
+    - Who loves beef.
+    - A small rodent.
+-
+  question: How many Borris Bikes are there in London?
+  answers:
+    - "1, riden by Borris"
+    - "3742"
+    - "3742e10"
+    - "666"
+    - "3846"
+-
+  question: "Who wrote 'London Calling'"
+  answers:
+    - The Clash
+    - Take That
+    - The Spice Girls
+    - Justin Beber
+-
+  question: "A Yorkshire pudding is a:"
+  answers:
+    - A savoury pastry
+    - A dessert from Yorkshire
+    - Food stuff made of Yokrshiremen
+    - A cake from New York
+-
+  question: English Breakfast tea is...
+  answers:
+    - Absolutely necessary.
+    - A load of bollocks.
+    - A cup of coffee.
+    - A type of porridge.
+-
+  question: The Union Jack is composed of...
+  answers:
+    - The English and Scottish Flags and the red saltire of St Patrick (Ireland).
+    - The English and Welsh Flags and the red saltire of St Patrick (Ireland).
+    - The English and Scottish Flags and the red saltire of St Patrick (Ireland).
+    - The American colours.
+    - A subset of the Australian Flag.
+-
+  question: What does having a stiff upper lip mean?
+  answers:
+    - To exercise great self-restraint in the expression of emotion.
+    - The feeling when you stayed too long in the cold.
+    - A type of mustache.
+-
+  question: Vindaloo is a curry from..
+  answers:
+    - The UK.
+    - India
+    - China
+    - Gibraltar
+-
+  question: What is a jacket potato?
+  answers:
+    - A baked potato with butter.
+    - The official flag of the British Isles.
+    - A type of vest.
+    - Gibraltar
+-
+  question: When was the UK constitution ratified?
+  answers:
+    - Never.
+    - "1792"
+    - "1215"
+    - "1787"

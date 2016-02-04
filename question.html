@@ -4,7 +4,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-    <title>Check if you need a UK visa - GOV.UK</title>
+    <title>Taking your citizenship test - GOV.UK</title>
 
     <script type="text/javascript">
       (function(){if(navigator.userAgent.match(/IEMobile\/10\.0/)){var d=document,c="appendChild",a=d.createElement("style");a[c](d.createTextNode("@-ms-viewport{width:auto!important}"));d.getElementsByTagName("head")[0][c](a);}})();
@@ -123,7 +123,7 @@
       <ol role="breadcrumbs" class="group">
         <li><a href="/">Home</a></li>
       <li><a href="https://www.gov.uk/browse/visas-immigration">Visas and immigration</a></li>
-<li><strong><a href="https://www.gov.uk/browse/visas-immigration/arriving-in-the-uk">Arriving in the UK</a></strong></li>
+      <li><strong><a href="https://www.gov.uk/browse/visas-immigration/arriving-in-the-uk">Taking your citizenship test</a></strong></li>
 </ol>
     </div>
 
@@ -137,18 +137,18 @@
   <header class="page-header group">
     <div>
       <h1>
-        Home Office Application Results
+        Take your citizenship test
       </h1>
     </div>
   </header>
 
     <div class="step current">
-      <form action="/check-uk-visa/y/azerbaijan" accept-charset="UTF-8" method="get">
+      <form action="/check-uk-visa" accept-charset="UTF-8" method="get">
 <input name="utf8" type="hidden" value="✓">
         <div class="current-question" id="current-question">
           <div class="question">
   <h2>
-    We have assessed your suitability to stay within the United Kingdom.
+    {{ question_name }}
   </h2>
   <div class="question-body">
 
@@ -157,14 +157,16 @@
 
     <div class="">
 
-    {% if passed %}
-    <h2>Welcome, You Are British Enough</h2>
-    <img src="/static/queen.gif"/>
-    {% else %}
-    <h2>The Police Will Be Calling Soon</h2>
-    <img src="/static/gohome.jpg"/>
-    {% endif %}
+      <ul class="options">
 
+        {% for answer in answers %}
+    <li>
+      <label for="response" class="selectable">
+        <input type="radio" name="response" value="{{ answer.id }}">
+        {{ answer }}
+      </label>
+    </li>
+        {% endfor %}
 
     </div>
   </div>
